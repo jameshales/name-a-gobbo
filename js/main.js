@@ -7,7 +7,6 @@ function generateNames() {
     const name = grammar.flatten("#name#")
     nodes.push($("<li></li>").text(name))
   }
-  console.log(nodes)
   $(".card ul").empty().append(nodes)
 }
 
